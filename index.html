@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Nan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" onclick="openEnvelope()">
+    <div class="envelope">
+      <div class="top-flap"></div>
+      <div class="letter">
+        <p>Happy Birthday Nan!💖</p>
+      </div>
+      <div class="bottom-flap"></div>
+    </div>
+    <p class="click-note">Click the envelope!</p>
+  </div>
+
+  <script>
+    function openEnvelope() {
+      document.querySelector('.envelope').classList.add('open');
+    }
+  </script>
+</body>
+</html>
